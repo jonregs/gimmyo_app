@@ -1,16 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-<data>
-    <variable
-        name="bidItem"
-        type="com.gimmyo.app.bidboard.model.BidBoardViewModel"/>
-</data>
+    <data>
+        <variable
+            name="bidItem"
+            type="com.gimmyo.app.bidboard.model.BidBoardViewModel"/>
+    </data>
 
-    <TextView
+    <android.support.v7.widget.CardView
         android:id="@+id/bidOfferId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@{bidItem.bidOfferId}"/>
 
 </layout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<layout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--<data>-->
+    <!--<variable-->
+        <!--name="bidItem"-->
+        <!--type="com.gimmyo.app.bidboard.model.BidBoardViewModel"/>-->
+<!--</data>-->
+
+<!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp">-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/bidboard_card_image"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--tools:src="@drawable/toyota_tacoma" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@drawable/cardview_gradient"-->
+        <!--android:layout_gravity="bottom">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/bidOfferId"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@{bidItem.bidOfferId}"/>-->
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/bidOfferId"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentBottom="false"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_margin="6dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginBottom="18dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:shadowColor="#000"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:shadowRadius="7.0"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@{bidItem.bidOfferId}"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@color/white"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="17sp" />&ndash;&gt;-->
+
+    <!--</RelativeLayout>-->
+<!--</android.support.v7.widget.CardView>-->
+<!--</layout>-->

@@ -3,6 +3,7 @@ package com.gimmyo.app.bidboard.adapter;
 import android.content.Context;
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -30,9 +31,15 @@ public class BidItemAdapter extends RecyclerView.Adapter<BidItemAdapter.BindingH
     @Override
     public BidItemAdapter.BindingHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
+//        ItemBidboardBinding binding = DataBindingUtil.inflate(LayoutInflater.from(parent.getContext()), R.layout.item_bidboard, parent, false);
+
+
         ItemBidboardBinding binding = DataBindingUtil.inflate(LayoutInflater.from(parent.getContext()), R.layout.item_bidboard, parent, false);
 
-        return new BindingHolder(binding);
+        BindingHolder bh = new BindingHolder(binding);
+
+
+        return bh;
     }
 
     @Override
