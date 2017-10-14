@@ -10,12 +10,7 @@ import com.gimmyo.app.R;
 import com.gimmyo.app.bidboard.model.BidBoardViewModel;
 import com.gimmyo.app.bidboard.model.BidItem;
 import com.gimmyo.app.databinding.ItemBidboardBinding;
-
 import java.util.List;
-
-/**
- * Created by Jon on 9/30/2017.
- */
 
 public class BidItemAdapter extends RecyclerView.Adapter<BidItemAdapter.BindingHolder> {
 
@@ -28,7 +23,7 @@ public class BidItemAdapter extends RecyclerView.Adapter<BidItemAdapter.BindingH
     }
 
     @Override
-    public BidItemAdapter.BindingHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public BindingHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         ItemBidboardBinding binding = DataBindingUtil.inflate(LayoutInflater.from(parent.getContext()), R.layout.item_bidboard, parent, false);
 
@@ -51,7 +46,7 @@ public class BidItemAdapter extends RecyclerView.Adapter<BidItemAdapter.BindingH
         private ItemBidboardBinding binding;
 
         public BindingHolder(ItemBidboardBinding binding) {
-            super(binding.bidOfferId);
+            super(binding.bidCard);
             this.binding = binding;
         }
     }
