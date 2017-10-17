@@ -16,4 +16,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--Login page -->
+    <color name="signup_bg_color">#ffffff</color>
+    <color name="text_color_signup_page">#000000</color>
+    <color name="darker_text_color_signup_page">#808080</color>
+    <color name="iron">#CCCCCC</color>
+
 </resources>

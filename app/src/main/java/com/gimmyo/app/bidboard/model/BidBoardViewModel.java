@@ -33,4 +33,12 @@ public class BidBoardViewModel extends BaseObservable{
     public static void loadImage(ImageView view, String url) {
         Glide.with(view.getContext()).load(url).centerCrop().into(view);
     }
+
+    public int getLikes() {
+        return mBidItem.getLikes();
+    }
+
+    public int getDealerOffers() {
+        return mBidItem.getDealerOffers();
+    }
 }
