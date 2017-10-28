@@ -13,4 +13,28 @@
     <string name="default_info_message">Enter a GitHub username above to see its repositories</string>
     <string name="text_fork">This repository is a fork</string>
     <string name="text_language">Language: %s</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="social_options">or sign in with:</string>
+    <string name="sign_up_or_register">Don\'t have an account?</string>
+    <string name="gimmyo_logo">Gimmyo logo</string>
+    <string name="gimmyo_banner">Gimmyo banner</string>
+    <string name="facebook_sign_in">Facebook sign in</string>
+    <string name="googleplus_sign_in">Google plus sign in</string>
+    <string name="twitter_sign_in">Twitter sign in</string>
+
+
+    <!-- Strings related to sign up -->
+    <string name="sign_in_text">Sign in</string>
+    <string name="or_sign_in_with">or sign in with:</string>
+    <string name="terms_conditions_sign_up">By signing up you agree with our terms and conditions</string>
+    <string name="sign_up_button">Signup</string>
+    <string name="password_hint_text">Password</string>
+    <string name="email_hint_text">Email address</string>
+    <string name="username_hint_text">Username</string>
+    <string name="create_new_account_label">Create new account</string>
 </resources>
