@@ -13,7 +13,23 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#cbcbcb</color>
 
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#007e8c</color>
+    <color name="signup_bg_color">#ffffff</color>
+    <color name="text_color_signup_page">#000000</color>
+    <color name="darker_text_color_signup_page">#808080</color>
+
+    <color name="iron">#CCCCCC</color>
+    <color name="blue_grey_800_50p">#E237474F</color>
+
+
+    <!--color resources for bottom navigation bar-->
+    <color name="bottomtab_item_resting">#36000000</color>
+    <color name="bottomtab_item_disabled">#1e000000</color>
+
+    <color name="bottomtab_0">#6CCC3D</color>
+    <color name="bottomtab_1">#EA5C46</color>
+    <color name="bottomtab_2">#33b3cc</color>
 </resources>
