@@ -18,10 +18,7 @@ import com.gimmyo.app.bidboard.model.BidItemResponse;
 import com.gimmyo.app.databinding.MainBidboardBinding;
 import com.gimmyo.app.rest.ApiClient;
 import com.gimmyo.app.rest.ApiInterface;
-import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -32,7 +29,7 @@ import retrofit2.Response;
  * Created by Jon on 9/29/2017.
  */
 
-public class BidBoardHome extends AppCompatActivity {
+public class BidBoardHome extends AppCompatActivity implements BidBoardListFragment.OnBidBoardItemSelected {
 
     String TAG = "BidBoard";
 
@@ -82,5 +79,11 @@ public class BidBoardHome extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+    
+    @Override
+    public void OnBidBoardItemSelected(int imageResId, String name, String description, String url) {
+        final BidBoardDetailsFragment detailsFragment = BidBoardDetailsFragment.newInstance(imageResId, name, description, url);
+//        getSupportFragmentManager().beginTransaction().replace()
     }
 }
