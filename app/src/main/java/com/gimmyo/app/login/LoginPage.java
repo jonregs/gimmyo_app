@@ -75,7 +75,7 @@ public class LoginPage extends AppCompatActivity implements View.OnClickListener
 								@Override
 								public void done(ParseObject object, ParseException e) {
 									if (e == null && object != null) {
-										
+										Log.d(TAG, "inside parse query");
 										boolean loggedIn = confirmLoginAccount(object.getString("username"), Integer.toString(object.getInt("score")));
 										if(!loggedIn) {
 											onSignInFailed();
@@ -95,8 +95,9 @@ public class LoginPage extends AppCompatActivity implements View.OnClickListener
 	}
 	
 	private boolean confirmLoginAccount(String username, String password) {
+		Log.d(TAG, "inside confirm login account");
 		if (username.equals(userAccount) && password.equals(passwordAccount)) {
-			Log.v(TAG, "success logging in");
+			Log.d(TAG, "success logging in");
 			Intent successLogin = new Intent(LoginPage.this, BidBoardHome.class);
 			startActivity(successLogin);
 			finish();

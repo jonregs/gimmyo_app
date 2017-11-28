@@ -1,0 +1,70 @@
+{
+    "results": [
+        {
+            "bidOfferId": "ross's whip",
+            "carManufacturer": "Chevrolet",
+            "carModel": "Camaro",
+            "carYear": "2016",
+            "bidOfferImage": "android.resource://com.gimmyo.app/drawable/toyota_tacoma",
+            "bidAmount": 20000,
+            "targetUri": "somewhere in gimmyo",
+            "likes": 5,
+            "dealerOffers": 10
+        },
+        {
+            "bidOfferId": "truck thing",
+            "carManufacturer": "Chevrolet",
+            "carModel": "Camaro",
+            "carYear": "2016",
+            "bidOfferImage": "android.resource://com.gimmyo.app/drawable/toyota_tacoma",
+            "bidAmount": 20000,
+            "targetUri": "somewhere in gimmyo",
+            "likes": 15,
+            "dealerOffers": 20
+        },
+        {
+            "bidOfferId": "asdq123asf4124",
+            "carManufacturer": "Chevrolet",
+            "carModel": "Camaro",
+            "carYear": "2016",
+            "bidOfferImage": "android.resource://com.gimmyo.app/drawable/toyota_tacoma",
+            "bidAmount": 20000,
+            "targetUri": "somewhere in gimmyo",
+            "likes": 25,
+            "dealerOffers": 30
+        },
+        {
+            "bidOfferId": "asdq123asf4124",
+            "carManufacturer": "Chevrolet",
+            "carModel": "Camaro",
+            "carYear": "2016",
+            "bidOfferImage": "android.resource://com.gimmyo.app/drawable/toyota_tacoma",
+            "bidAmount": 20000,
+            "targetUri": "somewhere in gimmyo",
+            "likes": 35,
+            "dealerOffers": 40
+        },
+        {
+            "bidOfferId": "asdq123asf4124",
+            "carManufacturer": "Chevrolet",
+            "carModel": "Camaro",
+            "carYear": "2016",
+            "bidOfferImage": "android.resource://com.gimmyo.app/drawable/toyota_tacoma",
+            "bidAmount": 20000,
+            "targetUri": "somewhere in gimmyo",
+            "likes": 45,
+            "dealerOffers": 50
+        },
+        {
+            "bidOfferId": "asdq123asf4124",
+            "carManufacturer": "Chevrolet",
+            "carModel": "Camaro",
+            "carYear": "2016",
+            "bidOfferImage": "android.resource://com.gimmyo.app/drawable/toyota_tacoma",
+            "bidAmount": 20000,
+            "targetUri": "somewhere in gimmyo",
+            "likes": 55,
+            "dealerOffers": 60
+        }
+    ]
+}
