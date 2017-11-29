@@ -8,12 +8,17 @@
     <variable
         name="bidItem"
         type="com.gimmyo.app.bidboard.model.BidBoardViewModel"/>
+    <variable
+        name="handler"
+        type="com.gimmyo.app.bidboard.ClickHandler"/>
+
 </data>
         <android.support.v7.widget.CardView
             android:id="@+id/bid_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="6dp">
+            android:layout_margin="6dp"
+            android:onClick="@{handler.onClickBid()}">
 
             <ImageView
                 android:id="@+id/image"

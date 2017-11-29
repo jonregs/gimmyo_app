@@ -37,4 +37,7 @@
     <string name="email_hint_text">Email address</string>
     <string name="username_hint_text">Username</string>
     <string name="create_new_account_label">Create new account</string>
+
+    <!-- Strings related to Bidboard Details Fragment -->
+    <string name="description_format">%1$s\n\n%2$s</string>
 </resources>

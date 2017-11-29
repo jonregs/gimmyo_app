@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 Razeware LLC
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.
+  -->
+<resources>
+  <array name="images">
+    <item>@drawable/toyota_tacoma</item>
+    <item>@drawable/toyota_tacoma</item>
+    <item>@drawable/toyota_tacoma</item>
+    <item>@drawable/toyota_tacoma</item>
+    <item>@drawable/toyota_tacoma</item>
+    <item>@drawable/toyota_tacoma</item>
+    <item>@drawable/toyota_tacoma</item>
+    <item>@drawable/toyota_tacoma</item>
+    <item>@drawable/toyota_tacoma</item>
+    <!--<item>@drawable/bmw_x5</item>-->
+    <!--<item>@drawable/camaro</item>-->
+    <!--<item>@drawable/civic</item>-->
+    <!--<item>@drawable/civic_2</item>-->
+    <!--<item>@drawable/escalade</item>-->
+    <!--<item>@drawable/ford_mustang</item>-->
+    <!--<item>@drawable/genesis</item>-->
+    <!--<item>@drawable/gmc_terrain</item>-->
+  </array>
+
+  <string-array name="names">
+    <item>Toyota Tacoma 2017</item>
+    <item>BMW X5 2017</item>
+    <item>Chevrolet Camarro 2017</item>
+    <item>Honda Civic 2016</item>
+    <item>Honda Civic 2017</item>
+    <item>Cadillac Escalade 2017</item>
+    <item>Ford Mustang 2017</item>
+    <item>Hyundai Genesis 2017</item>
+    <item>GMC Terrain 2017</item>
+  </string-array>
+
+  <string-array name="descriptions">
+    <item>Cereal Guy is a stick figure character commonly used on image boards and discussion forums as a multi-purpose reaction face.</item>
+    <item>F!@# Yeah is a series of four-pane cartoon strips featuring a stick figure looking rather self-complacent and quite frankly, for all the right reasons. Originally posted via /b/ board on February 11, 2010, these cartoons illustrate all sorts of triumphant moments in our daily lives that make us feel awesome, like when you wake up a few seconds before the morning alarm goes off. This phenomenon can be also seen as the antithesis to Rageguy comics, another four-pane series originating from 4chan circa late 2008.</item>
+    <item>Forever Alone is an exploitable rage comic character that is used to express loneliness and disappointment with life. The face has also been used as an advice animal and inspired the creation of the snowclone template \"Forever an X.\"</item>
+    <item>Freddie Mercury Rage Pose is a rage comic character made from a photo of deceased British musician and former lead vocalist for the rock band Queen Freddie Mercury. The image is typically used to indicate that an extraordinary feat has been accomplished, similar to the F!@# Yea illustration.</item>
+    <item>LOL Guy is a rage comic character that is often used to indicate laughter and general amusement.</item>
+    <item>Neil deGrasse Tyson Reaction is a rage comic character and reaction face of astrophysicist Neil deGrasse Tyson making a defensive gesture. The character image is sometimes associated with the catchphrase "Watch out guys, we’re dealing with a badass over here" that is used to mock arrogant and boastful statements made by Internet users.</item>
+    <item>The Oh Crap or OMG Face refers to an exploitable image used in rage comics to express an array of feelings including astonishment, revelation, or sheer rage. It is often paired with red or white text, summing up the character\'s thoughts. It is also used to represent a Gropaga, or follower of Inglip.</item>
+    <item>Okay Guy is a sullen-looking rage comic character who is accompanied by the caption \"okay.\" The face is often used in the final panel of comics meant to convey a feeling of hopeless resignation.</item>
+    <item>The name Rageguy refers to the main character of a series of crudely-drawn comics typically consisting of four panes, portraying situations which can bring rage and exasperation, with the main character screaming with anger as a result. Due to its simplicity and exploitability, Rageguy has been proven popular thus being evolved into a comic series now known as Rage Comics.</item>
+ </string-array>
+
+  <string-array name="urls">
+    <item>http://knowyourmeme.com/memes/cereal-guy</item>
+    <item>http://knowyourmeme.com/memes/fck-yea</item>
+    <item>http://knowyourmeme.com/memes/forever-alone</item>
+    <item>http://knowyourmeme.com/memes/freddie-mercury-rage-pose</item>
+    <item>http://knowyourmeme.com/memes/lol-guy</item>
+    <item>http://knowyourmeme.com/memes/neil-degrasse-tyson-reaction</item>
+    <item>http://knowyourmeme.com/memes/oh-crap-omg-rage-face</item>
+    <item>http://knowyourmeme.com/memes/okay-guy</item>
+    <item>http://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu</item>
+ </string-array>
+</resources>

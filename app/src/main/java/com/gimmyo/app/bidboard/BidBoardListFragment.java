@@ -38,7 +38,7 @@ public class BidBoardListFragment extends Fragment {
 	
 	String TAG = "BidBoard";
 	BidItemAdapter bidItemAdapter;
-	private OnBidBoardItemSelected bidBoardItemSelected;
+//	private OnBidBoardItemSelected bidBoardItemSelected;
 	
 	public static BidBoardListFragment newInstance() {
 		return new BidBoardListFragment();
@@ -48,11 +48,11 @@ public class BidBoardListFragment extends Fragment {
 	public void onAttach(Context context) {
 		super.onAttach(context);
 		
-		if(context instanceof OnBidBoardItemSelected) {
-			bidBoardItemSelected = (OnBidBoardItemSelected) context;
-		} else {
-			throw new ClassCastException(context.toString() + " must implement OnBidItemSelected");
-		}
+//		if(context instanceof OnBidBoardItemSelected) {
+//			bidBoardItemSelected = (OnBidBoardItemSelected) context;
+//		} else {
+//			throw new ClassCastException(context.toString() + " must implement OnBidItemSelected");
+//		}
 		
 		ApiInterface apiService =
 				ApiClient.getClient().create(ApiInterface.class);
@@ -66,6 +66,11 @@ public class BidBoardListFragment extends Fragment {
 				Log.i(TAG, "onResponse: " + new GsonBuilder().setPrettyPrinting().create().toJson(bidItems));
 
 				bidItemAdapter = new BidItemAdapter(bidItems, getActivity());
+				final RecyclerView recyclerView = getView().findViewById(R.id.main_bidboard);
+				
+				recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+				recyclerView.setItemAnimator(new DefaultItemAnimator());
+				recyclerView.setAdapter(bidItemAdapter);
 			}
 
 			@Override
@@ -80,17 +85,7 @@ public class BidBoardListFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
 		Log.d(TAG, "inside onCreateView: ");
-		final MainBidboardBinding binding = DataBindingUtil.inflate(inflater, R.layout.main_bidboard, container, false);
-	
-		final Activity activity = getActivity();
-		View view = binding.getRoot();
-		final RecyclerView recyclerView = view.findViewById(R.id.main_bidboard);
-		
-		recyclerView.setLayoutManager(new LinearLayoutManager(activity));
-		recyclerView.setItemAnimator(new DefaultItemAnimator());
-		recyclerView.setAdapter(bidItemAdapter);
-		
-		return view;
+		return DataBindingUtil.inflate(inflater, R.layout.main_bidboard, container, false).getRoot();
 	}
 	
 	public interface OnBidBoardItemSelected {

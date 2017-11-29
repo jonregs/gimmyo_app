@@ -5,6 +5,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 
 import com.gimmyo.app.R;
@@ -28,24 +29,12 @@ public class BidBoardHome extends AppCompatActivity implements BidBoardListFragm
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-//        floatingActionSetup();
 
     }
-
-//    private void floatingActionSetup() {
-//
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
-//    }
     
     @Override
     public void OnBidBoardItemSelected(int imageResId, String name, String description, String url) {
+        Log.d("TAG", "OnBidBoardItemSelected: ");
         final BidBoardDetailsFragment detailsFragment =
                 BidBoardDetailsFragment.newInstance(imageResId, name, description, url);
         getSupportFragmentManager()
